@@ -1,0 +1,402 @@
+body {
+    background-color: #D6D6D6;
+}
+
+.body-projects {
+    background-color: #7698A6;
+}
+
+.home-footer {
+    height: 120px;
+    background-color: #BFBFBF;
+}
+
+.blue-footer {
+    height: 120px;
+    background-color: #637E8A;
+}
+
+/*--------------Navigation bar-------------*/
+
+.header {
+    padding: 2rem 20rem;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 3.5rem;
+    padding: 0;
+}
+
+.nav-item-portfolio {
+    margin: 0 3rem 0 1rem;
+}
+
+.nav-item-posters {
+    margin: 0 3rem 0 1rem;
+}
+
+.nav-item-projects {
+    margin: 0 3rem 0 0;
+}
+
+/*-------------------------index page----------------*/
+
+.home-img {
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.home-title {
+    position: absolute;
+    z-index: 1;
+    margin: 17rem 5.5rem;
+}
+
+.home-title h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.blue-title {
+    color: #7698A6;
+}
+
+.kali-img2 {
+    max-width: 500px;
+}
+
+.kali-img1 {
+    max-width: 350px;
+    padding-top: 7rem;
+}
+
+/*----------------About me----------------*/
+
+.about-title {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 35px;
+}
+
+.about-title h1 {
+    font-weight: 400;
+    font-size: 7rem;
+    letter-spacing: 0.15em;
+    color: white;
+    text-shadow: -3px -3px 0px rgba(206, 3, 3, 0.47), 3px 3px 0px rgba(5, 83, 81, 0.47);
+}
+
+.row {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-about1 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    opacity: 0.7;
+}
+
+.img-about {
+    width: 100%;
+}
+
+.col-about2 {
+    padding: 0 1rem;
+    background-color: #6C838C;
+}
+
+.about-info {
+    line-height: normal;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding: 1rem 0;
+}
+
+.about-caption {
+    font-weight: 100;
+    font-size: 30px;
+    padding-left: 3rem;
+}
+
+.about-description {
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0 1rem;
+}
+
+/*--------------------- Fine art------------------------*/
+
+.col-fineDescription1 h3 {
+    text-align: right;
+    line-height: 0.9;
+}
+
+.col-fineDescription1 {
+    margin-top: 3rem;
+}
+
+.bc-white {
+    background-color: #fff;
+    color: #303030;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.col-fineDescription2 h1 {
+    letter-spacing: 0.09em;
+    text-shadow: -3px -3px 0px rgba(206, 3, 3, 0.47), 3px 3px 0px rgba(5, 83, 81, 0.47);
+}
+
+.fineDescription2-title {
+    position: absolute;
+    top: 80px;
+    left: 22px;
+}
+
+.col-fineDescription2 .bc-white {
+    height: 20%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fine {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+/*pnt of view */
+
+.pnt {
+    padding-left: 4rem;
+}
+
+.pnt-col1 h2 {
+    margin: 0 0 10px 90px;
+    text-shadow: -3px -3px 0px rgba(206, 3, 3, 0.47), 3px 3px 0px rgba(5, 83, 81, 0.47);
+    font-weight: 200;
+}
+
+.pnt-col2 {
+    padding: 0;
+    margin: 0;
+}
+
+.pnt-img1 {
+    width: 90%;
+}
+
+.pnt-img2 {
+    max-width: 68.5%;
+}
+
+.pnt-col3 {
+    margin-top: 5rem;
+}
+
+.pnt-col3 h3 {
+    text-align: center;
+    line-height: 0.9;
+}
+
+/* TIME */
+
+.time-col2 {
+    padding: 0;
+    margin: 0;
+}
+
+.time-img1 {
+    max-width: 80%;
+}
+
+.time-img2 {
+    max-width: 79.4%;
+}
+
+/*-------------- Projects ---------------*/
+
+/* .nav-item-projects {
+    margin: 0 3rem 0 0;
+} */
+
+.mamco-images, .copy-images {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.copy-images4 {
+    width: 100%;
+    height: 92%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mamco-container {
+    width: 80%;
+    margin-top: 10rem;
+}
+
+.mamco-row, .copy-row {
+    margin: 2rem 0;
+}
+
+.copy-container {
+    width: 70%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.copy-container2 {
+    margin-bottom: 5rem;
+}
+
+.mamco-text {
+    width: 40%;
+}
+
+.mamco-title h2 {
+    margin: 0 0 20px 70px;
+    text-shadow: -3px -3px 0px rgba(206, 3, 3, 0.47), 3px 3px 0px rgba(5, 83, 81, 0.47);
+    font-weight: 200;
+}
+
+.mamco-description, .mamco-description2 {
+    opacity: 0.7;
+}
+
+.mamco-description h3 {
+    background-color: #7EF2D1;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 0 20px 70px;
+    padding: 18px 0 18px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    border-top: solid 1px;
+}
+
+.mamco-description2 h3 {
+    background-color: #7EF2D1;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 35px 1px;
+    padding: 18px 0 18px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    border-top: solid 1px;
+}
+
+.copy-images {
+    width: 100%;
+}
+
+/*---------------------- MEDIA------------------------ */
+
+@media(max-width: 520px) {
+    /* home */
+    .header {
+        padding: 2rem 6rem;
+    }
+    .nav-item {
+        margin-right: 2rem;
+    }
+    .col-img1 {
+        padding: 0;
+    }
+    .home-img {
+        padding: 0;
+        margin: 0;
+    }
+    .home-title {
+        margin: 11rem 0 0 2rem;
+    }
+    .home-title h1 {
+        font-size: 4rem;
+    }
+    .col-about2 {
+        max-width: 100%;
+    }
+    .col-img2 {
+        display: none;
+    }
+    .img-about {
+        width: 100%;
+    }
+    /* ABOUT ME */
+    .about-title h1 {
+        font-size: 5rem;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+  /* FINE ART */
+  .col-fineDescription1 h3 {
+    text-align: center;
+}
+.pnt-col1 h2 {
+    margin: 50px 0 10px 90px;
+    text-shadow: none;
+}
+/* MAMCO */
+.mamco-title h2 {
+
+    text-shadow: none;
+    
+}
+}
+@media(min-width:520px) and (max-width: 768px) {
+    .header {
+        padding: 2rem 6rem;
+    }
+    .nav-item {
+        margin-right: 2rem;
+    }
+    /*Home*/
+    .home-title {
+        margin: 11rem 0 0 13rem;
+    }
+    .col-about2 {
+        max-width: 100%;
+    }
+    .col-img2 {
+        display: none;
+    }
+    .img-about {
+        width: 100%;
+    }
+  
+}
+
+@media(min-width:1060px) and (max-width:1268px) {
+    .paper-img, .mamco-img {
+        margin-left: 800px;
+        top: 150px;
+        width: 400px;
+    }
+}
+
+@media(max-width:1000px) {
+    .col-fineDescription2 .navbar {
+        visibility: hidden;
+    }
+    .fineDescription2-title {
+        top: 50px;
+    }
+}
